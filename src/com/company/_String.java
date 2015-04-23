@@ -3,7 +3,6 @@ package com.company;
 /**
  * Created by marina on 20.04.15.
  * Реализовать класс строка
- * Реализоватькласс строка
  String {
  char[]
  .replace
