@@ -18,15 +18,7 @@ public class _StringTest {
 
         _String expected = new _String("Run_this_test");
 
-        boolean isEquals;
-
-        if (newString.equals(expected)){
-            isEquals = true;
-        }
-        else {
-            isEquals = false;
-        }
-        Assert.assertFalse("testReplace is failed", isEquals);
+        Assert.assertFalse("testReplace is failed", newString.equals(expected));
     }
 
     @Test
@@ -36,15 +28,7 @@ public class _StringTest {
 
         int expected = 2;
 
-        boolean isEquals;
-
-        if (outIndex == expected){
-            isEquals = true;
-        }
-        else {
-            isEquals = false;
-        }
-        Assert.assertFalse("testFind is failed", isEquals);
+        Assert.assertFalse("testFind is failed", newString.equals(outIndex == expected));
 
     }
 
@@ -55,16 +39,7 @@ public class _StringTest {
 
         _String expected = new _String("Run this testT");
 
-        boolean isEquals;
-
-        if (newString.equals(expected)){
-            isEquals = true;
-        }
-        else {
-            isEquals = false;
-        }
-        Assert.assertFalse("testAppend is failed", isEquals);
-
+        Assert.assertFalse("testAppend is failed", newString.equals(expected));
 
     }
 
@@ -75,15 +50,7 @@ public class _StringTest {
 
         _String expected = new _String("Run this tes");
 
-        boolean isEquals;
-
-        if (newString.equals(expected)){
-            isEquals = true;
-        }
-        else {
-            isEquals = false;
-        }
-        Assert.assertFalse("testRemove is failed", isEquals);
+        Assert.assertFalse("testRemove is failed", newString.equals(expected));
 
     }
 }
